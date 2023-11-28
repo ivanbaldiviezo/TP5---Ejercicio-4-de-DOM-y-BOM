@@ -4,15 +4,17 @@
 }
 
 body {
-    background: url(../img/fondo-reloj.jpg);
-    background-size:cover;
+    min-height: 100vh;
+    background: url(../img/fondo-reloj.jpg), center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
-    font-size: 16px;
 }
 
 .wrap {
     width: 40%;
-    margin: 32px;
+    margin-top: 10%;
+    margin-left: 30%;
 }
 
 .widget p {
@@ -34,7 +36,7 @@ body {
     font-family: 'Oswald', Arial;
     width: 100%;
     padding: 20px;
-    font-size: 64 px;
+    font-size: 64px;
     text-align: center;
     background:rgba(0, 0, 0, .5);
 }
